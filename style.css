@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #e0ddddb9;
+	margin-top: 250px;
+}
+
+.container {
+	width: 400px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 5px;
+}
+
+header {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin-bottom: 35px;
+}
+
+input {
+	border: none;
+	border-radius: 5px;
+
+	width: 80%;
+
+	padding: 10px 16px;
+	margin-bottom: 20px;
+}
+
+#in1 {
+	margin-bottom: 10px;
+}
+
+button {
+	width: 80%;
+
+	padding: 10px 16px;
+	margin-bottom: 20px;
+
+	background: #6c63ff;
+	color: #fff;
+
+  font-weight: 500;
+
+	border-radius: 5px;
+	border: none;
+
+	cursor: pointer;
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0 15rem;
+}
+
+#pic {
+	width: 700px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px ;
+}
+
+.face {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+  background: #3e58a4;
+  color: #fff;
+
+  padding: 5px 40px;
+  margin-top: 20px;
+
+  width: 80%;
+
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.face p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#icon {
+  font-size: 36px;
+}
