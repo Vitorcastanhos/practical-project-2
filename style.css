@@ -5,19 +5,22 @@
 }
 
 body {
-	background: #e0ddddb9;
-	margin-top: 250px;
+	background: linear-gradient(90deg, rgb(36, 220, 183) 60%, rgba(140, 212, 193, 2) 100%);
+	height: 100vh;
 }
 
 .container {
-	width: 400px;
+	width: 320px;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+
+	margin: 100px auto 0;
 
 	border-radius: 5px;
+
+	padding: 30px 0;
 }
 
 header {
@@ -25,7 +28,22 @@ header {
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 
-	margin-bottom: 35px;
+	margin-bottom: 26px;
+
+	color: #fff;
+}
+
+form {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+}
+
+form .face {
+	display: flex;
+	width: 100%;
 }
 
 input {
@@ -51,7 +69,7 @@ button {
 	background: #6c63ff;
 	color: #fff;
 
-  font-weight: 500;
+	font-weight: 500;
 
 	border-radius: 5px;
 	border: none;
@@ -59,46 +77,47 @@ button {
 	cursor: pointer;
 }
 
-.box {
+.container .face {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
 
-	margin: 0 15rem;
+	background: #3e58a4;
+	color: #fff;
+
+	padding: 5px 15px;
+	margin: 20px 0;
+
+	width: 80%;
+
+	border-radius: 3px;
+
+	cursor: pointer;
+}
+
+.face p {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#icon {
+	font-size: 30px;
+}
+
+.photo {
+	/* width: 80%; */
 }
 
 #pic {
+	margin: 0 auto;
+	width: 90%;
 	width: 700px;
 }
 
 footer {
-  text-align: center;
-  margin-top: 100px ;
-}
-
-.face {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-
-  background: #3e58a4;
-  color: #fff;
-
-  padding: 5px 40px;
-  margin-top: 20px;
-
-  width: 80%;
-
-  border-radius: 3px;
-
-  cursor: pointer;
-}
-
-.face p {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-#icon {
-  font-size: 36px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
 }
