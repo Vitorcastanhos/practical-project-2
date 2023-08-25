@@ -9,16 +9,20 @@ body {
 	height: 100vh;
 }
 
+.box-limit {
+	width: 100%;
+
+	margin: 56px auto;
+}
+
 .container {
-	width: 320px;
+	max-width: 450px;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
-	margin: 100px auto 0;
-
-	border-radius: 5px;
+	margin: 0 auto;
 
 	padding: 30px 0;
 }
@@ -56,6 +60,10 @@ input {
 	margin-bottom: 20px;
 }
 
+input:focus {
+  outline-color: #3e58a4;
+}
+
 #in1 {
 	margin-bottom: 10px;
 }
@@ -79,14 +87,14 @@ button {
 
 .container .face {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	gap: 16px;
+	gap: 1rem;
 
 	background: #3e58a4;
 	color: #fff;
 
-	padding: 5px 15px;
+	padding: 5px 20px;
 	margin: 20px 0;
 
 	width: 80%;
@@ -105,14 +113,8 @@ button {
 	font-size: 30px;
 }
 
-.photo {
-	/* width: 80%; */
-}
-
 #pic {
-	margin: 0 auto;
-	width: 90%;
-	width: 700px;
+	display: none;
 }
 
 footer {
@@ -120,4 +122,47 @@ footer {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+@media (min-width: 768px) {
+	.box-limit {
+    margin: 56px auto;
+  }
+}
+
+@media (min-width: 1080px) {
+	.box-limit {
+		width: 100vw;
+		/* height: 100vh; */
+
+		margin: initial;
+		margin: 56px auto;
+
+		display: flex;
+		align-items: center;
+
+		gap: 30px;
+	}
+
+	.photo {
+		width: initial;
+		width: 50%;
+
+		margin: initial;
+		margin: auto;
+	}
+
+	#pic {
+		display: initial;
+
+		width: 100%;
+	}
+
+	.container {
+		max-width: initial;
+		width: 450px;
+
+		margin: initial;
+		margin: auto;
+	}
 }
