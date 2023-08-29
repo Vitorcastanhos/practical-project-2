@@ -130,7 +130,7 @@ footer {
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 960px) {
 	.box-limit {
 		width: 100vw;
 		/* height: 100vh; */
