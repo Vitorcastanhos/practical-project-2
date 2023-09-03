@@ -165,4 +165,8 @@ footer {
 		margin: initial;
 		margin: auto;
 	}
+
+	footer{
+		margin-top: 67px;
+	}
 }
