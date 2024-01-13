@@ -14,6 +14,10 @@
 ## Technologies Used
 
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+<br/>
+
+![image](https://github.com/Vitorcastanhos/practical-project-2/assets/77864032/11931c43-e549-4e29-b276-b192f945e517)
+
 
 <br>
 
